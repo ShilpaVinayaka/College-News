@@ -1,0 +1,80 @@
+.rightbar {
+    flex: 3;
+    font-size: 13px;
+    margin-top: 20px;
+    
+}
+
+.rightbarWrapper{
+    padding-left: 5px;
+    width: 280px;
+    position: fixed;
+}
+
+.eventContainer {
+    padding: 10px;
+    border: none;
+    background-image: linear-gradient(160deg, #1596e1 0%, #09dffa 100%);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.eventheading {
+    font-weight: 500;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.eventTitle{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+
+.eventName{
+    font-weight: bold;
+}
+
+.eventDate{
+    font-size: 11px;
+}
+
+.activityContainer{
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    background-color: #f98747;
+    background-image: linear-gradient(62deg, #f98747 0%, #e3c783 100%);
+    -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.activityCategoryTitle{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.activityTitle{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 201px) {
+    .rightbar {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1150px) and (min-width: 801px) {
+    .rightbar {
+            display: none;
+    }
+}

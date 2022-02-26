@@ -1,0 +1,213 @@
+.topbarContainer{
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    color: whitesmoke;
+    -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    z-index: 100;
+    overflow: hidden;
+}
+
+.navbarIcon{
+    display: none;
+}
+
+.logo{
+    margin-left: 12%;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.logoImage{
+    height: 55px;
+    width: 75px;    
+    margin-top: 7px;
+    margin-left: 15px;
+    margin-left: 15px;
+}
+.topbarLeft{
+    flex: 3;
+    display: contents;
+}
+.searchtopbar{
+    background-color: aliceblue;
+}
+
+.searchbar {
+    width: 25%;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
+.searchIcon {
+    font-size: 10px !important;
+    margin-left: 10px;
+}
+  
+.searchInput {
+    border: none;
+    width: 70%;
+    font-size: 13px;
+}
+  
+.searchInput:focus {
+    outline: none;
+}
+
+/* .topbarCenter{
+    flex: 7;
+    padding: 10px;
+} */
+.topbarlinks{
+    display: flex;
+    width: 100%;
+}
+.topbarLink{
+    padding: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.topbarRight{
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30px;
+    margin-left: auto;
+    padding-left: 15px;
+}
+.profilepic{
+    flex: 0;
+    margin-left: 50px;
+}
+.calendarLink{
+    font-size: 14px;
+    background-color: #09dffa;
+    color: black;
+    font-weight: 600;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px 5px 10px;
+    margin-right: 20px;
+    box-shadow:  0 0 10px rgb(235, 231, 231);
+}
+.topbarIcons{
+    display: flex;
+    color: #09dffa;
+}
+.topbarIconItem{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+.topbarIconBadge{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    top: -7px;
+    right: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+.topbarImg{
+    width: 40px;
+    height: 42px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.37);
+    margin-right: 225px;
+}
+
+.topbarimg{
+    width: 30px;
+    height: 30px;
+}
+
+.topbarCombo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 15.5px;
+}
+
+.topbarCombo:hover{
+    border-bottom: 2px solid #09dffa;
+    -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.37);
+}
+
+.active{
+    border-bottom: 2px solid #09dffa;
+}
+.topbarimgLink{
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.MuiSvgIcon-root {
+    fill: black;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 201px) {
+    .logo{
+        margin-left: 0;
+    }
+
+    .searchbar{
+        display: none;
+    }
+
+
+    .profilepic {
+        margin-left: 50%;
+        display: none;
+    }
+    .topbarRight{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        bottom: 0px;
+        background-color: black;
+        height: 65px;
+        width: 100%;
+        -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+        box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+        z-index: 100;
+        overflow: hidden;
+    }
+    .navbarIcon{
+        display: block;
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 950px) and (min-width: 801px) {
+    .logo{
+        margin-left: 3%;
+    }
+    .topbarRight{
+        margin-left: 30%;
+    }
+    .searchbar{
+        display: none;
+    }
+
+}

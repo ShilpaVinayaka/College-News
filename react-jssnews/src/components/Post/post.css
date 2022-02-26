@@ -1,0 +1,150 @@
+.post {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.37);
+    margin: 30px 0;
+    font-size: 13px;
+}
+
+.postWrapper {
+    padding: 10px;
+    background-color: white;
+
+}
+
+.postTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postTopLeft {
+    display: flex;
+    align-items: center;
+}
+
+.postProfileImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.37);
+    cursor: pointer;
+
+}
+
+.postUsername {
+    font-style: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+.postDate {
+    font-size: 11px;
+}
+
+.postCenter {
+    margin: 20px 0 5px;
+}
+
+.postImg {
+    margin-top: 20px;
+    max-height: 600px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.redbtn{
+    background-color: rgb(248, 50, 50);
+}
+
+.bluebtn{
+    background-color: rgb(19, 212, 247);
+}
+
+.yellowbtn{
+    background-color: rgb(243, 243, 22);
+}
+
+.greenbtn{
+    background-color: rgb(5, 202, 5);
+}
+
+.redbtn, .bluebtn, .yellowbtn, .greenbtn {
+    -webkit-box-shadow: 0px 1px 7px 0px rgba(0,0,0,0.37);
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.37);
+    border-radius: 15px;
+    padding: 5px 10px;
+    border: none;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.postlike{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    margin-right: 5px;    
+    margin-bottom: 10px;
+}
+
+.postBottomRight {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btnBadge {
+    width: auto;
+    padding: 0 3px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    margin: -9px 2px;
+    font-weight: 500;
+}
+
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+}
+
+.postCommentText{
+    cursor: pointer;
+    /* border-bottom: 1px dashed gray; */
+    font-size: 13px;
+}
+
+.postliked{
+    font-size: 13px;
+}
+
+.userDetails{
+    font-size: 10px;
+    font-weight: 400;
+    display: flex;
+    color: gray;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 201px) {
+    .post{
+        margin: 15px 0;
+    }
+}
